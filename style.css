@@ -1,1 +1,64 @@
+                        
+                           h1{
+                              font-family: 'DizhitlRegular';
+                              font-weight: normal;
+                              font-style: normal;}
 
+                          * {
+	                     font-family: Arial, Verdana, sans-serif;
+	                     color: #665544;
+                             text-align: center;}
+
+                       body {
+			     background-image:url("https://img.freepik.com/free-photo/maple-leaf-border-background-orange-watercolor-autumn-season_53876-128735.jpg?w=996&t=st=1665890951~exp=1665891551~hmac=bec6f792034ad40a1c9b930c35e3fff3832b2c52c1de12d17f4ce15df6fd1d4b");
+	                      width: 90%;
+                              margin: 0 auto;}
+
+                    #content {
+	                       overflow: auto;}
+
+    #nav, #feature, #footer {
+	                       margin: 1%;}
+                       #nav {
+	                      background-color: #DEB887;}
+                    #feature {
+	                      background-color: #FFE4E1;}
+	              
+                  
+                    .column1 {
+	                        background-color: #FFDAB9;}
+                   .column2 {
+	                        background-color: #FFA07A;}
+
+
+                      .column3 {
+	                        background-color: #FFB6C1;}
+
+                       #footer {
+				background-color: #FFDEAD;}
+
+.column1, .column2, .column3 {
+				width: 31.3%;
+				float: left;
+				margin: 1%;}
+
+
+			li {
+				display: inline;
+				padding: 0.5em;}
+
+	       #nav, #footer {
+				padding: 0.5em 0;}
+
+	  #feature, .article {
+				height: 10em;
+				margin-bottom: 1em;}
+
+                         #feature {
+				background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrbl3H2izqsbEvFNnrhZyLuaRB54N6ZL_PAQ&usqp=CAU");
+                                background-size:contain;
+                                background-position: right;
+				background-repeat:no-repeat;}
+                          
+
+                         
