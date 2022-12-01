@@ -10,13 +10,14 @@ var errorMessages ="";
   if (formname.value==="null"|| 
      formname.value==="" )
   {
+    alert( "The First Name is required, only letters are accepted and it cannot be greater than 20 characters." )
     errorMessages += "<p>The Name is required.</p>";
   }
   else
   {
-    formname = true;
+    name = true;
   } 
-  return (formname);
+  return (name);
 }
   document.getElementById("errorMessages").innerHTML = errorMessages;
 
