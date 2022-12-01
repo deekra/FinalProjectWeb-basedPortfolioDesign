@@ -3,7 +3,7 @@ var name = false;
 var email = false;
 var comment = false;
 var errorMessages ="";
-alert( "dummy" );
+
 /*  function validateName()
 { */
   var formname = document.getElementById("name").value;
