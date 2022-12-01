@@ -4,6 +4,7 @@ function validateForm(){
   var ucomment = false;
   var errorMessages ="";
 
+  /*
   var Name = document.getElementById("name").value;
   if (Name === "null" ||
       Name === "") {
@@ -18,7 +19,7 @@ function validateForm(){
   document.getElementById("errorMessages").innerHTML = errorMessages;
   
   return uname;
-}
+} */
 
  var Email = document.getElementById("email").value;
   if (Email === "null" ||
@@ -35,7 +36,7 @@ function validateForm(){
   
   return uemail;
 }
-
+/*
 var Comment = document.getElementById("comment").value;
   if (Comment === "null" ||
       Comment === "") {
@@ -50,5 +51,5 @@ var Comment = document.getElementById("comment").value;
   document.getElementById("errorMessages").innerHTML = errorMessages;
   
   return ucomment;
-}
+} */
 
