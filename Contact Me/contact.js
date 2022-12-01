@@ -1,12 +1,12 @@
 function validateForm(){
-var uname = false;
-var email = false;
-var comment = false;
-var errorMessages ="";
+  var uname = false;
+  var email = false;
+  var comment = false;
+  var errorMessages ="";
 
   var Name = document.getElementById("name").value;
-  if (Name.value === "null" ||
-      Name.value === "") {
+  if (Name === "null" ||
+      Name === "") {
     
     errorMessages += "<p>The Name is required.</p>";
   
