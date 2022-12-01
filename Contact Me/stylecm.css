@@ -25,7 +25,11 @@
     #nav, #feature, #footer {
 	                       margin: 1%;}
                        #nav {
-	                      background-color: #DEB887;}
+	                      background-color: #DEB887;
+                             font-family: Arial, Verdana, sans-serif;
+	                     color: #665544;
+                             text-align: center;}
+
                     #feature {
 	                      background-color: #FFE4E1;}
 	              
