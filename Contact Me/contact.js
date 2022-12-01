@@ -4,8 +4,8 @@ var email = false;
 var comment = false;
 var errorMessages ="";
 
-  function validateName()
-{
+/*  function validateName()
+{ */
   var formname = document.getElementById("name").value;
   if (formname.value==="null"|| 
      formname.value==="" )
@@ -17,10 +17,10 @@ var errorMessages ="";
   {
     name = true;
   } 
-  return (name);
-}
+/*  return (name);
+} */
   document.getElementById("errorMessages").innerHTML = errorMessages;
 
-  return (validateName());
+  return name;
 }
 
