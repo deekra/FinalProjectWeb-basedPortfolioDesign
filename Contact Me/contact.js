@@ -4,8 +4,7 @@ function validateForm(){
   var ucomment = false;
   var errorMessages ="";
 
-/*  function validateName()
-  { * /
+
   var Name = document.getElementById("name").value;
   if (Name === "null" ||
       Name === "") {
@@ -18,11 +17,8 @@ function validateForm(){
   } 
   
   
-/*  
-  return uname;
- }  
-function validateEmail(){
-  */
+
+
  var Email = document.getElementById("email").value;
   if (Email === "null" ||
       Email === "") {
