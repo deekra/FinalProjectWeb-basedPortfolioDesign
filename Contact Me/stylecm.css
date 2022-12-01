@@ -7,10 +7,11 @@
 
                            h1{
                               font-family: 'DizhitlRegular';
+			      color: #665544;
                               font-weight: normal;
                               font-style: normal;}
 
- head, #header, fieldset, #footer,.column1,.column2,. column3, #nav {
+ head, #header, fieldset, #footer, .column1,.column2, .column3, #nav {
 	                     font-family: Arial, Verdana, sans-serif;
 	                     color: #665544;
                              text-align: center;}
