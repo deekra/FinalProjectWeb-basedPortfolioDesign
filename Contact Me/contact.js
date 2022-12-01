@@ -29,27 +29,19 @@ function validateForm(){
   else {
     uemail = true;
   } 
-/*  
-  return uemail;
-}
-  
-function validateComment(){
 
 var Comment = document.getElementById("comment").value;
   if (Comment === "null" ||
       Comment === "") {
     
-    errorMessages += "<p>Comment is required.</p>";
+    errorMessages = errorMessages + "<p>Comment is required.</p>";
   
   }
   else {
     ucomment = true;
   } 
 
-  return ucomment;
-} */
-  
+   
   document.getElementById("errorMessages").innerHTML = errorMessages;
-/*  return (validateName() && validateEmail() && validateComment()); */
-  return (uname && uemail);
+  return (uname && uemail && ucomment);
 }
