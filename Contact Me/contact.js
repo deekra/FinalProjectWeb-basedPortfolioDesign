@@ -7,16 +7,15 @@ var errorMessages ="";
 /*  function validateName()
 { */
   var formname = document.getElementById("name").value;
-  if (formname.value==="deeksh")
+  if (formname.value==="")
   {
     alert( "The First Name is required, only letters are accepted and it cannot be greater than 20 characters." );
     errorMessages += "<p>The Name is required.</p>";
-     alert( "falsepath" );
   }
   else
   {
     name = true;
-    alert( "truepath" );
+    alert( "truepath123" );
   } 
 /*  return (name);
 } */
