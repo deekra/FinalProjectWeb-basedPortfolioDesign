@@ -1,9 +1,5 @@
                         #errorMessages{
-                                         color: #FF0000;
-                                         text-align: center;}
-                          * {
-				  font-family: Arial, Verdana, sans-serif;
-				  text-align: center;}
+                                         color: #FF0000;}
 
                            h1{
                               font-family: 'DizhitlRegular';
@@ -11,7 +7,7 @@
                               font-weight: normal;
                               font-style: normal;}
 
- head, #header, fieldset, #footer, .column1,.column2, .column3, #nav {
+                             *{
 	                     font-family: Arial, Verdana, sans-serif;
 	                     color: #665544;
                              text-align: center;}
@@ -27,9 +23,7 @@
     #nav, #feature, #footer {
 	                       margin: 1%;}
                        #nav {
-	                     background-color: #DEB887;
-                             font-family: Arial, Verdana, sans-serif;
-	                     color: #665544;}
+	                     background-color: #DEB887;}
 
                     #feature {
 	                      background-color: #FFE4E1;}
