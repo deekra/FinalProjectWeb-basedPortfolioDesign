@@ -6,20 +6,20 @@ var errorMessages ="";
 
   function validateName()
 {
-  var name = document.getElementById("name").value;
-  if (name.value=="null"|| 
-      name.value=="" )
+  var formname = document.getElementById("name").value;
+  if (formname.value==="null"|| 
+     formname.value==="" )
   {
     errorMessages += "<p>The Name is required.</p>";
   }
   else
   {
-    name = true;
+    formname = true;
   } 
-  return (validname);
+  return (formname);
 }
   document.getElementById("errorMessages").innerHTML = errorMessages;
 
-  return (validateName(name));
+  return (validateName());
 }
 
