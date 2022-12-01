@@ -1,21 +1,21 @@
 function validateForm(){
-var name = false;
+var uname = false;
 var email = false;
 var comment = false;
 var errorMessages ="";
 
-  var name = document.getElementById("name").value;
-   if (name.value==="null"||
-       name.value==="")
-  {
+  var Name = document.getElementById("name").value;
+  if (Name.value === "null" ||
+      Name.value === "") {
+    
     errorMessages += "<p>The Name is required.</p>";
+  
   }
-  else
-  {
-    name = true;
+  else {
+    uname = true;
   } 
+  
   document.getElementById("errorMessages").innerHTML = errorMessages;
-
-  return name;
+  
+  return uname;
 }
-
