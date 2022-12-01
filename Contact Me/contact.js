@@ -18,5 +18,8 @@ var errorMessages ="";
   } 
   return (validname);
 }
+  document.getElementById("errorMessages").innerHTML = errorMessages;
+
   return (validateName(name));
 }
+
