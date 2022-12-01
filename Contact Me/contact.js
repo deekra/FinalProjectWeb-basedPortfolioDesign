@@ -7,8 +7,8 @@ var errorMessages ="";
   function validateName()
 {
   var name = document.getElementById("name").value;
-  if (name.value==="null"|| 
-      name.value==="" )
+  if (name.value=="null"|| 
+      name.value=="" )
   {
     errorMessages += "<p>The Name is required.</p>";
   }
