@@ -1,14 +1,14 @@
 function validateForm(){
   var uname = false;
-  var email = false;
-  var comment = false;
+  var uemail = false;
+  var ucomment = false;
   var errorMessages ="";
 
   var Name = document.getElementById("name").value;
   if (Name === "null" ||
       Name === "") {
     
-    errorMessages += "<p>The Name is required.</p>";
+    errorMessages += "<p>Name is required.</p>";
   
   }
   else {
@@ -19,3 +19,36 @@ function validateForm(){
   
   return uname;
 }
+
+  var Email = document.getElementById("email").value;
+  if (Email === "null" ||
+      Email === "") {
+    
+    errorMessages += "<p>The Email is required.</p>";
+  
+  }
+  else {
+    uemail = true;
+  } 
+  
+  document.getElementById("errorMessages").innerHTML = errorMessages;
+  
+  return uemail;
+}
+
+ var Comment = document.getElementById("comment").value;
+  if (Comment === "null" ||
+      Comment === "") {
+    
+    errorMessages += "<p>Name is required.</p>";
+  
+  }
+  else {
+    ucomment = true;
+  } 
+  
+  document.getElementById("errorMessages").innerHTML = errorMessages;
+  
+  return ucomment;
+}
+
