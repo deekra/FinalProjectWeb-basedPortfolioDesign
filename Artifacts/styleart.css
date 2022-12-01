@@ -6,7 +6,8 @@
 
                           * {
 	                     font-family: Arial, Verdana, sans-serif;
-	                     color: #665544;}
+	                     color: #665544;
+                             text-align: center;}
 
                        body {
 			     background-image:url("https://img.freepik.com/free-photo/maple-leaf-border-background-orange-watercolor-autumn-season_53876-128735.jpg?w=996&t=st=1665890951~exp=1665891551~hmac=bec6f792034ad40a1c9b930c35e3fff3832b2c52c1de12d17f4ce15df6fd1d4b");
