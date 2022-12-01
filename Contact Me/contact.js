@@ -17,12 +17,12 @@ function validateForm(){
     uname = true;
   } 
   
-  document.getElementById("errorMessages").innerHTML = errorMessages;
+  
   
   return uname;
  } 
-function validateEmail()
-  {
+function validateEmail(){
+  
  var Email = document.getElementById("email").value;
   if (Email === "null" ||
       Email === "") {
@@ -34,12 +34,10 @@ function validateEmail()
     uemail = true;
   } 
   
-  document.getElementById("errorMessages").innerHTML = errorMessages;
-  
   return uemail;
 }
-function validateComment()
-  {
+  
+function validateComment(){
 var Comment = document.getElementById("comment").value;
   if (Comment === "null" ||
       Comment === "") {
@@ -50,11 +48,10 @@ var Comment = document.getElementById("comment").value;
   else {
     ucomment = true;
   } 
-  
-  document.getElementById("errorMessages").innerHTML = errorMessages;
-  
+
   return ucomment;
 } 
   
+  document.getElementById("errorMessages").innerHTML = errorMessages;
   return (validateName() && validateEmail() && validateComment());
 }
