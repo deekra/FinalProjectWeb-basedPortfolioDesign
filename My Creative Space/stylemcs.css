@@ -60,21 +60,4 @@
                                 background-position: right;
 				background-repeat:no-repeat;}
                           
-       .leaf img{
-	      width: 30px;
-	        animation; leaf 5s linear infinite;
-         }
-        
-        .leaf {
-	      width : 100%
-	      align-items: right;
-	      justify-content: space-around;
-	      position: absolute;
-	}
-	      
-		
-
-		      
-	 
-
-                         
+      
