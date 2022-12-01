@@ -4,8 +4,10 @@ var icon = document.getElementById("icon")
 icon.onclick = function(){
   if (music.paused){
     music.play();
-    icon.src ="";
+    icon.src ="pause.png";
   } else {
      music.pause();
-    icon.src ="";
+    icon.src ="play.png";
+  }
+}
   
