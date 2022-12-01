@@ -6,7 +6,7 @@
                               font-weight: normal;
                               font-style: normal;}
 
-                          * {
+ head, #header, form, #footer,.column1,.column2,. column 3 {
 	                     font-family: Arial, Verdana, sans-serif;
 	                     color: #665544;
                              text-align: center;}
