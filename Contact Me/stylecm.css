@@ -1,4 +1,6 @@
-                        
+                        #errorMessages{
+                                        color:red;}
+
                            h1{
                               font-family: 'DizhitlRegular';
                               font-weight: normal;
