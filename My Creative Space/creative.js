@@ -1,4 +1,4 @@
-var music - document.getElementById("music")
+var music = document.getElementById("music")
 var icon = document.getElementById("icon")
  
 icon.onclick = function(){
