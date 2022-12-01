@@ -1,12 +1,15 @@
                         #errorMessages{
-                                         color: #FF0000;}
+                                         color: #FF0000;
+                                         text-align: center;}
+                          * {
+				  text-align: center;}
 
                            h1{
                               font-family: 'DizhitlRegular';
                               font-weight: normal;
                               font-style: normal;}
 
- head, #header, fieldset, #footer,.column1,.column2,. column 3 {
+ head, #header, fieldset, #footer,.column1,.column2,. column 3, #nav {
 	                     font-family: Arial, Verdana, sans-serif;
 	                     color: #665544;
                              text-align: center;}
