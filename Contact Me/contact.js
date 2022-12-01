@@ -27,7 +27,7 @@ function validateEmail(){
   if (Email === "null" ||
       Email === "") {
     
-    errorMessages += "<p>Email is required.</p>";
+    errorMessages = errorMessages +  "<p>Email is required.</p>";
   
   }
   else {
